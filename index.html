@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = 'styles.css'>
+<!--<script src = 'scriptCalculator.js' defer></script>-->
+    <script src = 'script-calculator.js' defer></script>
+</head>
+<body>
+    <div id ='title'>Calculator</div>
+    
+    <div id = 
+    'container'>
+        <div id ='display-container'>
+            <div id = 'display'></div>
+            <div id = 'result'>result</div>
+        </div>
+        <div class="all-buttons">
+            <div id = 'buttonCont'>
+                <div class = 'contNumb'>
+                    <button class = 'number' data-type="number" id = '1' value="1" >1</button>
+                    <button class = 'number' data-type="number" id = '2' value="2" >2</button>
+                    <button class = 'number' data-type="number" id = '3' value="3" >3</button>
+                    <button class = 'number' data-type="number" id = '4' value="4" >4</button>
+                    <button class = 'number' data-type="number" id = '5' value="5" >5</button>
+                    <button class = 'number' data-type="number" id = '6'value = "6" >6</button>
+                    <button class = 'number' data-type="number" id = '7' value="7" >7</button>
+                    <button class = 'number' data-type="number" id = '8' value="8" >8</button>
+                    <button class = 'number' data-type="number" id = '9' value="9" >9</button>
+                    <button class = 'number' data-type="number" id = '0' value="0" >0</button>
+                    <button class = 'number' data-type="decimal" id ='dot' value=".">.</button>
+                    <button class = 'other' id = 'del' data-type="backspace">del</button>
+                    <button class = 'other'id = 'equals' value="=" data-type = 'equals'>=</button>
+                </div>
+
+                <div class = 'contO'>
+                <button class = 'operation' data-type="operator" id = 'add'>+</button>
+                <button class = 'operation'id = 'sub' data-type="operator">-</button>
+                <button class = 'operation'id = 'mult' data-type="operator">×</button>
+                <button class = 'operation'id ='divide' data-type="operator">÷</button>
+                <button class = 'operation' id='clear' data-type="reset">clear</button>            
+                </div>
+        </div>
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>
